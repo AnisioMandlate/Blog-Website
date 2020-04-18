@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", "sans-serif", "Roboto";
+    background-color: #2f3640;
+}
+
+.blog-header { 
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1em;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.blog-post-section {
+    color: whitesmoke;
+    margin: 50px;
+    padding-top: 10px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fill,400px);
+}
+
+.blog-post {
+    padding: 20px;
+    transition: 0.3s;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #353b48;
+}
+
+.blog-post:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.89);
+}
+
+.blog-description-date{
+    display: block;
+    margin: auto 10px;
+}
+
+button {
+    width: 100%;
+    padding:13px;
+    font-size: 1em;
+    background-color: #353b48;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border:1px solid black;
+    border-radius: 30px;
+    transition: ease-in-out 0.5s;
+}
+
+button:hover {
+    border: none;
+    background-color: #27ae60;
+    color: white;
+}

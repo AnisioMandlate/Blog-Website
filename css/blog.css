@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 4vw;
+    font-family: "Lato", "sans-serif", "Roboto";
+    background-color: #2f3640;
+    color: whitesmoke;
+    line-height: 1.9;
+}
+
+.blog-post-header { 
+    min-height: 30vh;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+}
+
+.blog-title {
+    color: #f08e80;
+    text-align: center;
+}
+
+.blog-content {
+    display: block;
+    font-size: 1.3em;
+    margin: 0 10%;
+    padding: 10px 0;
+}
