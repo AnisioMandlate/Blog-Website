@@ -1,0 +1,60 @@
+@media screen and (min-width: 300px) {
+    .blog-header {
+        margin: auto 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .blog-post-section {
+        color: whitesmoke;
+        margin: 10px;
+        padding-top: 10px;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(auto-fill,400px);
+    }
+
+    .blog-post {
+        margin: 10px auto;
+    }
+
+    .subscribe-form {
+        margin: 20px;
+        padding: 5px;
+        display: block;
+        text-align: center;
+        align-content: center;
+    }
+
+    .col-25, .col-75 {
+        width: 100%;
+        margin-top: 0;
+      }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75 {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .blog-content {
+        display: block;
+        font-size: 1.2em;
+        margin: auto 3px;
+        padding: 10px 0;
+    }
+
+    .buttons {
+        margin: 20px 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+}

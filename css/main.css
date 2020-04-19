@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import "media-queries.css";
+@import "buttons.css";
+@import "form.css";
 
 *,
 *::after,
@@ -52,44 +55,4 @@ a {
 .blog-description-date{
     display: block;
     margin: auto 10px;
-}
-
-button {
-    width: 100%;
-    padding:13px;
-    font-size: 1em;
-    background-color: #57606f63;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border:1px solid black;
-    border-radius: 30px;
-    transition: ease-in-out 0.5s;
-}
-
-button:hover {
-    border: none;
-    background-color: #27ae60;
-    color: white;
-}
-
-@media screen and (min-width: 300px) {
-    .blog-header {
-        margin: auto 40px;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center; 
-    }
-
-    .blog-post-section {
-        color: whitesmoke;
-        margin: 10px;
-        padding-top: 10px;
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: repeat(auto-fill,400px);
-    }
-
-    .blog-post {
-        margin: 10px auto;
-    }
 }

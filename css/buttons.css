@@ -1,0 +1,41 @@
+button {
+    width: 100%;
+    padding:13px;
+    font-size: 1em;
+    background-color: #57606f63;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border:1px solid black;
+    border-radius: 30px;
+    transition: ease-in-out 0.5s;
+}
+
+button:hover {
+    border: none;
+    background-color: #27ae60;
+    color: white;
+}
+
+.buttons {
+    margin: 20px 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-buttons {
+    padding:13px;
+    font-size: 1em;
+    background-color: #353b48;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border:1px solid black;
+    border-radius: 30px;
+    transition: ease-in-out 0.5s;
+}
+
+.blog-buttons:hover {
+    border: none;
+    background-color: #27ae60;
+    color: white;
+}
