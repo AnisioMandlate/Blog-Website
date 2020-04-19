@@ -1,4 +1,4 @@
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 100px) {
     .blog-header {
         margin: auto 40px;
         display: inline-flex;
