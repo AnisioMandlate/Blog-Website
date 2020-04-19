@@ -33,3 +33,45 @@ body {
     margin: 0 10%;
     padding: 10px 0;
 }
+
+.buttons {
+    margin: 20px 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding:13px;
+    font-size: 1em;
+    background-color: #353b48;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border:1px solid black;
+    border-radius: 30px;
+    transition: ease-in-out 0.5s;
+}
+
+button:hover {
+    border: none;
+    background-color: #27ae60;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .blog-content {
+        display: block;
+        font-size: 1.2em;
+        margin: auto 3px;
+        padding: 10px 0;
+    }
+
+    .buttons {
+        margin: 20px 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+}
