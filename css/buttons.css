@@ -2,10 +2,11 @@ button {
     width: 100%;
     padding:13px;
     font-size: 1em;
+    color: #f5f5f5;
     background-color: #57606f63;
     transition-duration: 0.4s;
     cursor: pointer;
-    border:1px solid black;
+    border:1px solid #f5f5f5;
     border-radius: 30px;
     transition: ease-in-out 0.5s;
 }
@@ -29,7 +30,7 @@ button:hover {
     background-color: #353b48;
     transition-duration: 0.4s;
     cursor: pointer;
-    border:1px solid black;
+    border:1px solid #f5f5f5;
     border-radius: 30px;
     transition: ease-in-out 0.5s;
 }
