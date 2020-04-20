@@ -24,6 +24,10 @@ body {
     line-height: 1;
 }
 
+.blog-title {
+    margin-bottom: 0;
+}
+
 .blog-author {
     font-size: 0.7em;
 }
