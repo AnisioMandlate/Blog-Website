@@ -27,6 +27,13 @@
         align-content: center;
     }
 
+    .blog-img {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        /* height: 150px; */   
+    }
+
     .col-25, .col-75 {
         width: 100%;
         margin-top: 0;
@@ -47,6 +54,14 @@
         font-size: 1.2em;
         margin: auto 3px;
         padding: 10px 0;
+    }
+
+    .blog-img {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        /* height: 150px; */
+        
     }
 
     .buttons {
