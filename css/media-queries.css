@@ -34,6 +34,13 @@
         /* height: 150px; */   
     }
 
+    .blog-post-image {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
     .col-25, .col-75 {
         width: 100%;
         margin-top: 0;
@@ -59,9 +66,17 @@
     .blog-img {
         display: block;
         margin: 0 auto;
-        width: 50%;
-        /* height: 150px; */
-        
+        width: 100%;
+    }
+
+    .blog-post-image {
+        display: block;
+        margin: 0 auto;
+        width: 100%;        
+    }
+
+    .blog-post-img-caption {
+        font-size: 0.2em;
     }
 
     .buttons {

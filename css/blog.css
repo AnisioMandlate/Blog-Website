@@ -58,10 +58,15 @@ body {
     padding: 7px 0 20px;
 }
 
-.blog-img {
+.blog-post-image {
     display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.blog-post-img-caption {
+    font-size: 0.7em;
 }
 
 footer {
